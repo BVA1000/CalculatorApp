@@ -1,0 +1,121 @@
+body {
+  background: linear-gradient(to top right, #2854b4, #28b487, #6fd5c7);
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0);
+  border-color: none;
+  border-radius: 0.5rem;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.calculator {
+  background: linear-gradient(to bottom left, #2854b4, #28b487, #6fd5c7);
+  border-radius: 1.5rem;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 15px 15px 20px 20px;
+  width: 400px;
+}
+
+#display {
+  background: rgb(128, 128, 128, 0.1);
+  border: 1.5px solid #ffffff;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  direction: ltr;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  height: 30px;
+  margin-bottom: 8px;
+  outline: none;
+  padding: 40px 5px;
+  text-align: right;
+  width: 99%;
+}
+
+#display::placeholder {
+  color: #ffffff;
+}
+
+.btn {
+  background: rgb(128, 128, 128, 0.1);
+  border: 1.5px solid #ffffff;
+  border-radius: 1.5rem;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  height: 45px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  outline: none;
+  width: 24%;
+}
+
+.btnEqual {
+  background: rgb(128, 128, 128, 0.1);
+  border: 1.5px solid #ffffff;
+  border-radius: 1.5rem;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  height: 45px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  outline: none;
+  width: 99.2%;
+}
+
+.btnPercent {
+  background: rgb(128, 128, 128, 0.1);
+  border: 1.5px solid #ffffff;
+  border-radius: 1.5rem;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  height: 45px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  outline: none;
+  width: 99.2%;
+}
+
+.btn:hover,
+.btnEqual:hover,
+.btnPercent:hover {
+  background-color: #6fd5c7;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 23.9%;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn {
+    width: 23.4%;
+  }
+}
